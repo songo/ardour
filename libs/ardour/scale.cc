@@ -628,6 +628,6 @@ MusicalKey::nth (int n) const
 		return -1;
 	}
 
-#warning paul you need to fix this
+#pragma GCC warning "warning paul you need to fix this"
 	return 99;
 }
